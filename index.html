@@ -11,192 +11,190 @@
     <header>
         <div class="navbar">
             <div class="container">
-                <h1 id="home">Grand Chase Info</h1>
+                <h1>Grand Chase Info</h1>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <nav class="collapse navbar-collapse" id="menu">
                     <ul class="nav navbar-nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Início</a>
+                            <a class="nav-link" href="#aboutThegame">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#aboutThegame">Sobre o Jogo</a>
+                            <a class="nav-link" href="#history">History</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#history">História</a>
+                            <a class="nav-link" href="#world">World</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#world">Mundo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#members">Membros</a>
+                            <a class="nav-link" href="#members">Crew</a>
+
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <main>
-        <article>
-            <h2 id="aboutThegame">About the Game</h2>
-            <p>Grand Chase (Korean: 그랜드체이스, lit. Grand Chase) is a free-to-play, two-dimensional side-scrolling MMORPG developed by the South Korean company KOG Studios. Alternative names for Grand Chase include 3小俠 (Three Young Heroes) used on the Taiwan server but was changed to 永恆冒險 (Eternal Adventures). Another name used was 彩虹骑士 (Rainbow Warriors) on the Mainland Chinese server. The reopening of the server also used the name of the Taiwan and Hong Kong server.</p>
-            <p>As of April 15, the game ceased development and terminated its service worldwide, with North America being the last foreign server to close in 2015. The mobile sequel Grand Chase Dimensional Chaser was launched in January 2018.</p>
-            <p>6 years after the closure, the game's return, now known as GrandChase Classic, has been announced in 2021 on Steam. Recruitment for Global CBT Testers was held from June 30 to July 8 and officially relaunched on July 28.</p>
-            <p>Grand Chase was awarded as Indonesia's most popular online game in August 2011 and has spawned several spin-off games such as Grand Chase Lite and Grand Chase M. It was also considered the "national online game" of Brazil.</p>
-            <p>ELSWORD, another game developed by KOG, was regarded as the spiritual successor to Grand Chase, having subtle references within the story, such as using Elesis as a new character in the game.</p>
-
-            <div id="carousel-generico" class="carousel carousel-fade slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div data-bs-interval="3000" class="carousel-item active">
-                        <img src="imagens/carousel01.webp" alt="#">
+    <div data-bs-spy="scroll" data-bs-target="#home">
+        <main>
+            <article id="aboutThegame" class="text-content">
+                <h2>About the Game</h2>
+                <p>Grand Chase (Korean: 그랜드체이스, lit. Grand Chase) is a free-to-play, two-dimensional side-scrolling MMORPG developed by the South Korean company KOG Studios. Alternative names for Grand Chase include 3小俠 (Three Young Heroes) used on the Taiwan server but was changed to 永恆冒險 (Eternal Adventures). Another name used was 彩虹骑士 (Rainbow Warriors) on the Mainland Chinese server. The reopening of the server also used the name of the Taiwan and Hong Kong server.</p>
+                <p>As of April 15, the game ceased development and terminated its service worldwide, with North America being the last foreign server to close in 2015. The mobile sequel Grand Chase Dimensional Chaser was launched in January 2018.</p>
+                <p>6 years after the closure, the game's return, now known as GrandChase Classic, has been announced in 2021 on Steam. Recruitment for Global CBT Testers was held from June 30 to July 8 and officially relaunched on July 28.</p>
+                <p>Grand Chase was awarded as Indonesia's most popular online game in August 2011 and has spawned several spin-off games such as Grand Chase Lite and Grand Chase M. It was also considered the "national online game" of Brazil.</p>
+                <p>ELSWORD, another game developed by KOG, was regarded as the spiritual successor to Grand Chase, having subtle references within the story, such as using Elesis as a new character in the game.</p>
+                <div id="carousel-generico" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img src="imagens/carousel01.webp" alt="#">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img src="imagens/carousel02.webp" alt="#">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img src="imagens/carousel03.webp" alt="#">
+                        </div>
                     </div>
-                    <div data-bs-interval="3000" class="carousel-item">
-                        <img src="imagens/carousel02.webp" alt="#">
-                    </div>
-                    <div data-bs-interval="3000" class="carousel-item">
-                        <img src="imagens/carousel03.webp" alt="#">
+                    <button class="carousel-control-prev" data-bs-target="#carousel-generico" data-bs-slide="prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-target="#carousel-generico" data-bs-slide="next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-generico" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-generico" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-generico" data-bs-slide-to="2"></button>
                     </div>
                 </div>
-
-                <button class="carousel-control-prev" data-bs-target="#carousel-generico" data-bs-slide="prev" type="button">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" data-bs-target="#carousel-generico" data-bs-slide="next" type="button">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel-generico" class="active" data-bs-slide-to="0"></button>
-                    <button type="button" data-bs-target="#carousel-generico" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carousel-generico" data-bs-slide-to="2"></button>
-                </div>
-            </div>
-        </article>
-        <article>
-            <h2 id="history">History</h2>
-            <p>The Story Timeline expands the chronological table of Grand Chase history that was provided by KOG Studios and summarizes all known events within the Grand Chase universe. It includes the jobs' backgrounds, passages from missions, and stories that were omitted after the story revamp but do not contradict the established lore, attempting to organize all of them in chronological order. For any inconsistencies found, whether a retcon or mistake on KOG's part, newer information is preferred.</p>
-
-            <p>While some stories happened in an unspecified time, those that were indicated or hinted to happen between certain events will be placed accordingly. However, events in the manhwa cannot be inserted due to having a different narrative from the game.</p>
-            
-            <p id="note"><strong>NOTE:</strong> This article is currently under development. The events in Grand Chase Dimensional Chaser will not be included, however, the chronology of events is subject to change depending on the progression of the story in the sequel game.</p>
-
-            <p>Six centuries ago the First Magical War took place, in which demonic tribes from another dimension attacked the kingdom of Calnat, in the legendary land of Archimedia. Calnat was the most developed human kingdom of all, mixing magic and technology like never before.[25] After countless battles, the war came to an end when a gigantic explosion completely destroyed Calnat, leaving no trace of its once advanced civilization. </p>
-
-<p>Although the demonic tribes disappeared along with the destruction of Calnat, the void left by the most powerful kingdom of humans allowed dozens of monsters to thrive. Taking advantage of this situation, Cazeaje, the Queen of Darkness, gathered the forces of darkness and began her campaign to dominate the world. She was stopped by a young hero from the Kanban kingdom, known as the greatest hero of Vermécia, who sacrificed himself to seal the dark power of Cazeaje. </p>
-
-<p>After these events, the world prospered in relative peace. Although rumors say that in Archimedia conflicts never ceased and that the elven civilization continued at war with the dwarven kingdom, as humans lost contact with this region after the destruction of Calnat, these stories became legends and tales of fairies. </p>
-
-<p>On the continent of Vermécia, humans lived in harmony with the local elves, who preferred to isolate themselves in their forests and islands, far from the civilization that was once again growing and expanding. Humans were divided between two kingdoms: Serdin, which explored the path of magic, and Canaban, famous for its heroes and powerful warriors. Peace was sealed by vows of friendship between these peoples. </p>
-
-<p>But one fine day, in the kingdom of Canaban, Cazeaje resurfaced, seeking revenge on the humans who imprisoned her in the past. After murdering the most loyal servant of the king of Canaban, she assumed his appearance and position of trust. Under this guise, Cazeaje slowly began to inspire the kingdom's rulers with promises of great conquests, power, and glory. And Canaban began to walk the path of darkness.
-Seeking to expand its borders and unknowingly influenced by Cazeaje, the Canaban kingdom invaded Serdin, starting a war that lasted five years and devastated Vermécia. Villages were destroyed, many lives were lost and several heroes fell in historic battles. Even the elves and dwarves left their homes to defend Serdin, but the Kanban army was relentless. During the greatest battle between the two kingdoms, Cazeaje finally revealed his disguise and took the life of the king of Serdin. </p>
-
-<p>Upon seeing his former friend dead and discovering Cazeaje's betrayal, the king of Canaban was overcome by boundless fury and tried to confront the traitor. However, this was part of the Dark Queen's plan, who was already prepared for the king's attack and easily took her life, disappearing from the battlefield soon after and leaving both kingdoms in ruin and without a sovereign. It was the end of the war between the two kingdoms, but humans had little to celebrate in the face of so much tragedy. </p>
-
-<p>In Serdin, shortly after the end of the battles that destroyed the kingdom, several monsters appeared, causing fear in the population and spreading chaos. Forests and cities were destroyed by the attacks of these unknown creatures. Still shaken by the death of her husband, the queen of Serdin received news brought by the greatest wizards in the kingdom: Cazeaje, the Queen of Darkness, was once again gathering a large army of monsters under her control to once again try to dominate the world.</p>
-
-<p>The queen of Serdin sought the support of the queen of Canaban and once again peace was reestablished in Vermécia, which now faced attacks from monsters. As Canaban and Serdin began to rebuild themselves and prepare their armies against the forces of evil, the queens decided that an elite group should be created with the greatest warriors from the two kingdoms.</p>
-
-<p>Unfortunately, the warriors of both kingdoms were weakened by the war. That's why Commander Lothos, in charge of the mission, decided to recruit newcomers with a lot of potential, and begin the training that would shape Vermécia's future heroes. Three young people were then summoned and began the great hunt to find Cazeaje and put an end to his evil once and for all. This is how the Grand Chase troop was founded.</p>
-
-        </article>
-
-        <article>
-            <h2 id="world">World</h2>
-            conteudo
-        </article>
-
-        <article>
-            <h2 id="members">Crew</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/f/fa/Elesis-1.png" alt="#">
-                            <div class="card-body">
-                                <h4 class="card-title"> Elesis Sieghart</h4>
-                                <h5 class="card-subtitle">Kanavan's Ruby Knight</h5>
-                                <p class="card-text">
-                                    The first daughter of the Sieghart family, Elesis was born in a period of chaos and is the first female heiress of the family. She is a Kanavan Knight and daughter of a Kanavan Tracker who never returned after he was dispatched to find Kaze'aze. She is an exceptional swordsman who has been trained by her father since childhood. While she was on a journey to find her father, she heard the news about Kaze'aze in the Serdin Kingdom. Hiding her true identity, Elesis joins the Grand Chase in hopes of finding her father...
-                                </p>
-                                <a href="https://grandchase.fandom.com/wiki/Elesis" target="_blank" class="btn btn-primary">See more</a>
+            </article>
+            <article id="history" class="text-content">
+                <h2>History</h2>
+                <p>The Story Timeline expands the chronological table of Grand Chase history that was provided by KOG Studios and summarizes all known events within the Grand Chase universe. It includes the jobs' backgrounds, passages from missions, and stories that were omitted after the story revamp but do not contradict the established lore, attempting to organize all of them in chronological order. For any inconsistencies found, whether a retcon or mistake on KOG's part, newer information is preferred.</p>
+                <p>While some stories happened in an unspecified time, those that were indicated or hinted to happen between certain events will be placed accordingly. However, events in the manhwa cannot be inserted due to having a different narrative from the game.</p>
+        
+                <p id="note"><strong>NOTE:</strong> This article is currently under development. The events in Grand Chase Dimensional Chaser will not be included, however, the chronology of events is subject to change depending on the progression of the story in the sequel game.</p>
+                <p>Six centuries ago the First Magical War took place, in which demonic tribes from another dimension attacked the kingdom of Calnat, in the legendary land of Archimedia. Calnat was the most developed human kingdom of all, mixing magic and technology like never before.[25] After countless battles, the war came to an end when a gigantic explosion completely destroyed Calnat, leaving no trace of its once advanced civilization. </p>
+        
+        <p>Although the demonic tribes disappeared along with the destruction of Calnat, the void left by the most powerful kingdom of humans allowed dozens of monsters to thrive. Taking advantage of this situation, Cazeaje, the Queen of Darkness, gathered the forces of darkness and began her campaign to dominate the world. She was stopped by a young hero from the Kanban kingdom, known as the greatest hero of Vermécia, who sacrificed himself to seal the dark power of Cazeaje. </p>
+        
+        <p>After these events, the world prospered in relative peace. Although rumors say that in Archimedia conflicts never ceased and that the elven civilization continued at war with the dwarven kingdom, as humans lost contact with this region after the destruction of Calnat, these stories became legends and tales of fairies. </p>
+        
+        <p>On the continent of Vermécia, humans lived in harmony with the local elves, who preferred to isolate themselves in their forests and islands, far from the civilization that was once again growing and expanding. Humans were divided between two kingdoms: Serdin, which explored the path of magic, and Canaban, famous for its heroes and powerful warriors. Peace was sealed by vows of friendship between these peoples. </p>
+        
+        <p>But one fine day, in the kingdom of Canaban, Cazeaje resurfaced, seeking revenge on the humans who imprisoned her in the past. After murdering the most loyal servant of the king of Canaban, she assumed his appearance and position of trust. Under this guise, Cazeaje slowly began to inspire the kingdom's rulers with promises of great conquests, power, and glory. And Canaban began to walk the path of darkness.
+        Seeking to expand its borders and unknowingly influenced by Cazeaje, the Canaban kingdom invaded Serdin, starting a war that lasted five years and devastated Vermécia. Villages were destroyed, many lives were lost and several heroes fell in historic battles. Even the elves and dwarves left their homes to defend Serdin, but the Kanban army was relentless. During the greatest battle between the two kingdoms, Cazeaje finally revealed his disguise and took the life of the king of Serdin. </p>
+        
+        <p>Upon seeing his former friend dead and discovering Cazeaje's betrayal, the king of Canaban was overcome by boundless fury and tried to confront the traitor. However, this was part of the Dark Queen's plan, who was already prepared for the king's attack and easily took her life, disappearing from the battlefield soon after and leaving both kingdoms in ruin and without a sovereign. It was the end of the war between the two kingdoms, but humans had little to celebrate in the face of so much tragedy. </p>
+        
+        <p>In Serdin, shortly after the end of the battles that destroyed the kingdom, several monsters appeared, causing fear in the population and spreading chaos. Forests and cities were destroyed by the attacks of these unknown creatures. Still shaken by the death of her husband, the queen of Serdin received news brought by the greatest wizards in the kingdom: Cazeaje, the Queen of Darkness, was once again gathering a large army of monsters under her control to once again try to dominate the world.</p>
+        
+        <p>The queen of Serdin sought the support of the queen of Canaban and once again peace was reestablished in Vermécia, which now faced attacks from monsters. As Canaban and Serdin began to rebuild themselves and prepare their armies against the forces of evil, the queens decided that an elite group should be created with the greatest warriors from the two kingdoms.</p>
+        
+        <p>Unfortunately, the warriors of both kingdoms were weakened by the war. That's why Commander Lothos, in charge of the mission, decided to recruit newcomers with a lot of potential, and begin the training that would shape Vermécia's future heroes. Three young people were then summoned and began the great hunt to find Cazeaje and put an end to his evil once and for all. This is how the Grand Chase troop was founded.</p>
+            </article>
+            <article id="world" class="text-content">
+                <h2>World</h2>
+                <img class="world-content" src="imagens/world.webp" alt="#">
+                <p>Aernas is the main setting of Grand Chase. It is a material world populated primarily by mortal beings such as humans, elves, and dwarves. Aernas has two major continents, Bermesiah and Ellia, with each featuring several regions. Another notable continent is the floating archipelago of Xenia where Silver Land, which is situated between the Kanavan territories and the peninsula of Ellia, was previously a part of.</p>
+                <p>With the original game reopening as GrandChase Classic, Aernas becomes the first world map that players explore followed by the newly added content expansion, Another World.Aernas is simply one of many earthly realms in the vast array of dimensional worlds. Before the gods came, the world was inhabited by primitive humans, elves, and dwarves who had only just begun to establish their tribal communities.</p>
+                <p>It was given its name "Aernas" in honor of the deity Ernasis, the gods' representative to the world. It is also a parallel dimension to the Underworld, the realm of the dead.</p>
+                <p>Before Kounat was christened, the deities Ernasis, the Goddess of war and bravery, Lisnar, the Goddess of love and spirits, and Amenias, the Goddess of wisdom and harmony, descended to Archimedia. They chose humans, the most courageous and imaginative of all species, with which they would codevelop society. Together, they brought many sorts of life to the core region of Archimedia and formed a civilization of Celestials.</p>
+                <p>As a consequence of Baldinar's actions, the barriers separating the world from the different dimensions have weakened and continued to degrade, and the gaps connecting Aernas to the Underworld and other realms, such as the Demon World of Elyos, have steadily widened through time.</p>
+                <p>After the Great Explosion of Kounat, the continent of Xenia split off from Silver Land, and a gateway leading from Trivia opened in the uncharted lands of Bermesiah.</p>
+            </article>
+            <article id="members">
+                <h2>Crew</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/f/fa/Elesis-1.png" alt="#">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Elesis Sieghart</h4>
+                                    <h5 class="card-subtitle">Kanavan's Ruby Knight</h5>
+                                    <p class="card-text">
+                                        The first daughter of the Sieghart family, Elesis was born in a period of chaos and is the first female heiress of the family. She is a Kanavan Knight and daughter of a Kanavan Tracker who never returned after he was dispatched to find Kaze'aze. She is an exceptional swordsman who has been trained by her father since childhood. While she was on a journey to find her father, she heard the news about Kaze'aze in the Serdin Kingdom. Hiding her true identity, Elesis joins the Grand Chase in hopes of finding her father...
+                                    </p>
+                                    <a href="https://grandchase.fandom.com/wiki/Elesis" target="_blank" class="btn btn-primary">See more</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/6/67/Lire-1.png" alt="#">
-                            <div class="card-body">
-                                <h4 class="card-title"> Lire Eryuell</h4>
-                                <h5 class="card-subtitle">Eryuell Island's peace-loving Archer.</h5>
-                                <p class="card-text">
-                                    Elves from Eryuell Island are famous for their combat skills, but are naturally pacifistic and try to avoid becoming involved in human conflicts. However, in recent years, the war expanded across the entire continent and a series of bizarre incidents occurred. The elves decided to end their isolation and cooperate with humans. Working together, the elves and the humans discover that Kaze'aze is responsible for the havoc that is wrecking the continent. To return peace to Eryuell Island and the continent...</p>
-                                    <a href="https://grandchase.fandom.com/wiki/Lire" target="_blank" class="btn btn-primary">See more</a>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/6/67/Lire-1.png" alt="#">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Lire Eryuell</h4>
+                                    <h5 class="card-subtitle">Eryuell Island's peace-loving Archer.</h5>
+                                    <p class="card-text">
+                                        Elves from Eryuell Island are famous for their combat skills, but are naturally pacifistic and try to avoid becoming involved in human conflicts. However, in recent years, the war expanded across the entire continent and a series of bizarre incidents occurred. The elves decided to end their isolation and cooperate with humans. Working together, the elves and the humans discover that Kaze'aze is responsible for the havoc that is wrecking the continent. To return peace to Eryuell Island and the continent...</p>
+                                        <a href="https://grandchase.fandom.com/wiki/Lire" target="_blank" class="btn btn-primary">See more</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/a/a0/Arme-1.png" alt="#">
-                            <div class="card-body">
-                                <h4 class="card-title"> Arme Glenstid</h4>
-                                <h5 class="card-subtitle">Serdin's talented Violet Mage.</h5>
-                                <p class="card-text">
-                                    Arme is a cheerful mage from Serdin, the kingdom of magic. Born with tremendous innate magical potential, Arme was rejected by her parents who were afraid of her powers. Abandoned by them at the doorstep of the Violet Mage Guild, the greatest guild of the Serdin Kingdom, she was adopted by the Grand Mage and became a member of that guild at an early age. After learning about Kaze'aze's powerful magic, Arme decided to join the Grand Chase, hoping to encounter the Queen of Darkness...
-                                </p>
-                                <a href="https://grandchase.fandom.com/wiki/Arme" target="_blank" class="btn btn-primary">See more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="cards-membros" src="imagens/ronan.png" alt="#">
-                            <div class="card-body">
-                                <h4 class="card-title"> Ronan Erudon</h4>
-                                <h5 class="card-subtitle">Kanavan's Royal Guard master.</h5>
-                                <p class="card-text">
-                                    The captain of the Royal Guard of the Kanavan Kingdom, Ronan is the firstborn of the noble and prestigious Erudon family, the legendary family of Spell Knights in Kanavan, and has shown amazing talent with both sword and magic since his childhood. He is the youngest of the Royal Guard to be appointed the mission to guard Anyu, princess and heir to the throne of Kanavan, and the Queen. An excellent swordsman with amazing magical potential as a child, Ronan was praised as the most powerful Spell Knight and the next captain of the Royal Guard.
-                                </p>
-                                <a href="https://grandchase.fandom.com/wiki/Ronan" target="_blank" class="btn btn-primary">See more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/b/b9/Ryan-1.png" alt="#">
-                            <div class="card-body">
-                                <h4 class="card-title"> Ryan Woodguard</h4>
-                                <h5 class="card-subtitle">The protector of the forest.</h5>
-                                <p class="card-text">
-                                    Ryan is a kind and cheerful forest elf who loves helping others. He'll do anything he can for Nature lovers and will play obnoxious pranks on those that threaten Nature. Ever since he witnessed Kaze'aze destroy the Partusay's Sea, Ryan has been driven by his rage against Kaze'aze. Growing up in the Elven Forest, Ryan has tried to protect Nature since childhood and has developed a strong and sympathetic heart. While growing up, he becoma a Druid after observing humans and monsters destroying the Elven Forest. He also can transform in a Werewolf</p>
-                                    <a href="https://grandchase.fandom.com/wiki/Ryan" target="_blank" class="btn btn-primary">See more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/0/09/Lass-1.png" alt="#">
-                            <div class="card-body">
-                                <h4 class="card-title"> Lass Isolet</h4>
-                                <h5 class="card-subtitle">The Thief that cuts through the darkness.</h5>
-                                <p class="card-text">
-                                    A half-breed, Lass was born of a father who came from the depths of the Underworld and a human mother. His appearance as a child was a side effect of being a half-breed, and he was abducted to serve as a freak show in a circus. After the circus catches fire for some mysterious reason, Lass took his chance for freedom and began wandering Aernas. Lass's mind and body were freed from Kaze'aze's possession after the Grand Chase vanquished Kaze'aze's evil from the world. Lass still felt guilty when he realized that his body was used by Kaze'aze's.
-                                </p>
-                                <a href="https://grandchase.fandom.com/wiki/Lass" target="_blank" class="btn btn-primary">See more</a>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/a/a0/Arme-1.png" alt="#">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Arme Glenstid</h4>
+                                    <h5 class="card-subtitle">Serdin's talented Violet Mage.</h5>
+                                    <p class="card-text">
+                                        Arme is a cheerful mage from Serdin, the kingdom of magic. Born with tremendous innate magical potential, Arme was rejected by her parents who were afraid of her powers. Abandoned by them at the doorstep of the Violet Mage Guild, the greatest guild of the Serdin Kingdom, she was adopted by the Grand Mage and became a member of that guild at an early age. After learning about Kaze'aze's powerful magic, Arme decided to join the Grand Chase, hoping to encounter the Queen of Darkness...
+                                    </p>
+                                    <a href="https://grandchase.fandom.com/wiki/Arme" target="_blank" class="btn btn-primary">See more</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </article>
-    </main>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="cards-membros" src="imagens/ronan.png" alt="#">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Ronan Erudon</h4>
+                                    <h5 class="card-subtitle">Kanavan's Royal Guard master.</h5>
+                                    <p class="card-text">
+                                        The captain of the Royal Guard of the Kanavan Kingdom, Ronan is the firstborn of the noble and prestigious Erudon family, the legendary family of Spell Knights in Kanavan, and has shown amazing talent with both sword and magic since his childhood. He is the youngest of the Royal Guard to be appointed the mission to guard Anyu, princess and heir to the throne of Kanavan, and the Queen. An excellent swordsman with amazing magical potential as a child, Ronan was praised as the most powerful Spell Knight and the next captain of the Royal Guard.
+                                    </p>
+                                    <a href="https://grandchase.fandom.com/wiki/Ronan" target="_blank" class="btn btn-primary">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/b/b9/Ryan-1.png" alt="#">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Ryan Woodguard</h4>
+                                    <h5 class="card-subtitle">The protector of the forest.</h5>
+                                    <p class="card-text">
+                                        Ryan is a kind and cheerful forest elf who loves helping others. He'll do anything he can for Nature lovers and will play obnoxious pranks on those that threaten Nature. Ever since he witnessed Kaze'aze destroy the Partusay's Sea, Ryan has been driven by his rage against Kaze'aze. Growing up in the Elven Forest, Ryan has tried to protect Nature since childhood and has developed a strong and sympathetic heart. While growing up, he becoma a Druid after observing humans and monsters destroying the Elven Forest. He also can transform in a Werewolf</p>
+                                        <a href="https://grandchase.fandom.com/wiki/Ryan" target="_blank" class="btn btn-primary">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="cards-membros" src="https://static.wikia.nocookie.net/grandchase/images/0/09/Lass-1.png" alt="#">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Lass Isolet</h4>
+                                    <h5 class="card-subtitle">The Thief that cuts through the darkness.</h5>
+                                    <p class="card-text">
+                                        A half-breed, Lass was born of a father who came from the depths of the Underworld and a human mother. His appearance as a child was a side effect of being a half-breed, and he was abducted to serve as a freak show in a circus. After the circus catches fire for some mysterious reason, Lass took his chance for freedom and began wandering Aernas. Lass's mind and body were freed from Kaze'aze's possession after the Grand Chase vanquished Kaze'aze's evil from the world. Lass still felt guilty when he realized that his body was used by Kaze'aze's.
+                                    </p>
+                                    <a href="https://grandchase.fandom.com/wiki/Lass" target="_blank" class="btn btn-primary">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
     <footer>
-        <p>Todos os direitos reservados</p>
+        <p>All rights reserved &copy;</p>
     </footer>
     <script src="bootstrap.bundle.min.js"></script>
 </body>

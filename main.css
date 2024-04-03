@@ -12,6 +12,10 @@ body {
 header {
     background-color: rgba(0, 0, 255, 0.452);
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.308);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 header h1 {
     color: white;
@@ -23,13 +27,16 @@ h1, h2 {
 }
 h2 {
     text-align: center;
-    margin: auto -38px;
+    margin: 1% -38px 2% -38px;
     background-image: linear-gradient(to right, rgba(34, 34, 243, 0.486), transparent);
     color: rgba(0, 0, 0, 0.774);
 }
 p {
     margin: 5px auto;
     text-indent: 2%;
+}
+.text-content {
+    font-size: 18px;
 }
 #note{
     font-weight: bold;
@@ -40,6 +47,12 @@ p {
 }
 .nav-link {
     text-align: center;
+    color: white;
+}
+.carousel-item img {
+    width: 100%;
+    border-radius: 20px;
+    margin: 2% auto;
 }
 main {
     max-width: 1366px;
@@ -48,9 +61,8 @@ main {
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.288);
     background-color: white;
 }
-.carousel-item img {
+.world-content {
     width: 100%;
-    border-radius: 20px;
     margin: 2% auto;
 }
 .card {
